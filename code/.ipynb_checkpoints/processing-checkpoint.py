@@ -40,7 +40,7 @@ def keep_dict_only(text):
     return ' '.join([word for word in str.split(text) if d.check(word)])
 
 # input is a dataframe that has a 'text' column/feature
-def clean_text(df):
+def process_text(df):
     df['text'] = df['text'].apply(lambda x: remove_numbers(x))
     df['text'] = df['text'].apply(lambda x: lower_case(x))
     df['text'] = df['text'].apply(lambda x: remove_punct(x))
