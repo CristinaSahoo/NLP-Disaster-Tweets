@@ -39,10 +39,10 @@ Word cloud representations for disaster tweets and tweets that do not report dis
 
 <div>
     Disaster Tweets<br>
-<img src="./images/train0_wordcloud.jpg" width="400"/>
+<img src="./images/train0_wordcloud.jpg" width="500"/>
     <br>
     Not Disaster Tweets<br>
-<img src="./images/train1_wordcloud.jpg" width="400"/>
+<img src="./images/train1_wordcloud.jpg" width="500"/>
 </div>
 
 Baseline: .42  
