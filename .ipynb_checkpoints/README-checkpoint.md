@@ -38,8 +38,8 @@ Text text data was run through several cleanup functions to remove punctuation, 
 Word cloud representations for disaster tweets and tweets that do not report disasters:
 
 <div>
-<img src="./images/train0_wordcloud.jpg" width="500"/>
-<img src="./images/train1_wordcloud.jpg" width="500"/>
+<img src="./images/train0_wordcloud.jpg" width="400"/>
+<img src="./images/train1_wordcloud.jpg" width="400"/>
 </div>
 
 Baseline: .42  
