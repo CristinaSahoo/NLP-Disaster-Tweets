@@ -38,7 +38,10 @@ Text text data was run through several cleanup functions to remove punctuation, 
 Word cloud representations for disaster tweets and tweets that do not report disasters:
 
 <div>
+    Disaster Tweets<br>
 <img src="./images/train0_wordcloud.jpg" width="400"/>
+    <br>
+    Not Disaster Tweets<br>
 <img src="./images/train1_wordcloud.jpg" width="400"/>
 </div>
 
