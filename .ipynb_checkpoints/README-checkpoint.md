@@ -33,10 +33,21 @@ The ubiquitousness of smartphones enables people to announce an emergency theyâ€
 
 ## Brief Summary of Analysis
 
+Text text data was run through several cleanup functions to remove punctuation, numbers, misspelled words, stop words, etc. The cleaned data was then split into features and target, vectorized, and transformed into tensors/multidimensional arrays to be fed into the neural network model.
 
+Word cloud representations for disaster tweets and tweets that do not report disasters:
+
+<div>
+<img src="./images/train0_wordcloud.jpg" width="500"/>
+<img src="./images/train1_wordcloud.jpg" width="500"/>
+</div>
+
+Baseline: .42  
+Models used:  
+- Sequential Neural Network with one Dense input layer, one Dense intermediate layer, and one Dense output layer. Each layer has 16 units. The activation function used was 'relu', and the output function was 'sigmoid'. Optimizer 'rmsprop', loss function 'binary crossentropy', and metric used 'accuracy'. This model scored .46.
+- Multinomial Naive Bayes scored .46.
 
 ## Abstract Summary
-
 
 
 Recommendations discussed include:
