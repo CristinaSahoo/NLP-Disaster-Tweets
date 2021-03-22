@@ -63,8 +63,8 @@ Data was obtained from the Kaggle website. It was cleaned and the text data was 
 
 **Conclusions:**  
 
-(1) Disaster tweets contain words like forest, evacuation, residents, shelter, wildfires, earthquake.
-(2) Not Disaster tweets contain words like love, lovely, man, car ,summer, fruits.
+(1) Disaster tweets contain words like forest, evacuation, residents, shelter, wildfires, earthquake.  
+(2) Not Disaster tweets contain words like love, lovely, man, car ,summer, fruits.  
 (3) The Naive Bayes models performed best, with 80% accuracy.  
 (4) Neural Networks requires very large amounts of data, so they may not be the best option for working with this dataset.  
 
